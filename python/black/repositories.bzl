@@ -9,8 +9,8 @@ def rules_black_dependencies():
     maybe(
         http_archive,
         name = "rules_venv",
-        integrity = "sha256-W6w2jYgQW1jA2WScHMSyxnKH+Pi2m/LmjUoGpJgD4Lg=",
-        urls = ["https://github.com/periareon/rules_venv/releases/download/0.0.6/rules_venv-0.0.6.tar.gz"],
+        integrity = "sha256-Hb6raL/eMeTEkfbAbM2mBtoua4bcwBr5FwhvGrAMjow=",
+        urls = ["https://github.com/periareon/rules_venv/releases/download/0.0.7/rules_venv-0.0.7.tar.gz"],
     )
 
 # buildifier: disable=unnamed-macro
