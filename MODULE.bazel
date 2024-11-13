@@ -1,0 +1,9 @@
+"""periareon/rules_black"""
+
+module(
+    name = "rules_black",
+    version = "0.0.1",
+)
+
+bazel_dep(name = "rules_venv", version = "0.0.1")
+bazel_dep(name = "rules_req_compile", version = "1.0.0rc29")
