@@ -1,0 +1,20 @@
+# {version}
+
+Additional documentation can be found at: https://github.com/periareon/rules_black
+
+## bzlmod
+
+```python
+bazel_dep(name = "rules_black", version = "{version}")
+```
+
+## WORKSPACE
+
+```python
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+http_archive(
+    name = "rules_black",
+    integrity = "sha256-{sha256_base64}",
+    urls = ["https://github.com/periareon/rules_black/releases/download/{version}/rules_black-{version}.tar.gz"],
+)
+```

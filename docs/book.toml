@@ -1,0 +1,9 @@
+[book]
+authors = ["periareon"]
+language = "en"
+multilingual = false
+src = "src"
+title = "rules_black"
+
+[output.html]
+git-repository-url = "https://github.com/periareon/rules_black"
